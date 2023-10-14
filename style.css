@@ -952,4 +952,38 @@ aside {
   border-radius: 4px;
   background: #d9d9d9;
 }
-
+.line11 {
+  width: 1440px;
+  height: 5px;
+  background-color: #e2e8f0;
+  margin-left: 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 25px;
+}
+.Description {
+  color: #334155;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 26.765px;
+  letter-spacing: 0.24px;
+  margin-left: 40px;
+}
+.par11 {
+  color: #64748b;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 123.023%;
+  letter-spacing: 0.24px;
+}
+.par12 {
+  color: #64748b;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 123.023%;
+  letter-spacing: 0.24px;
+}
