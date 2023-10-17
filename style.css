@@ -425,9 +425,10 @@ aside {
 }
 /* page4 */
 #summary {
+  margin-right: 26px;
   margin-top: 43px;
   margin-left: 26px;
-  width: 898.5px;
+  width: 96%;
   height: 543px;
   border-radius: 11px;
   border: 3px solid #e2e8f0;
@@ -436,7 +437,7 @@ aside {
 }
 #sum1 {
   display: flex;
-  width: 898.5px;
+  width: 100%;
   height: 55px;
   border: 3px solid #e2e8f0;
   border-top: none;
@@ -446,7 +447,7 @@ aside {
 }
 #sum2 {
   position: absolute;
-  width: 42px;
+  width: 05%;
   height: 546px;
   border: 3px solid #e2e8f0;
   top: -3px;
@@ -469,7 +470,7 @@ aside {
 }
 #sum3 {
   display: flex;
-  width: 898.5px;
+  width: 100%;
   height: 160px;
   border: 3px solid #e2e8f0;
   border-top: none;
@@ -480,7 +481,7 @@ aside {
 }
 #sum4 {
   display: flex;
-  width: 898.5px;
+  width: 100%;
   height: 160px;
   border: 3px solid #e2e8f0;
   border-top: none;
@@ -781,9 +782,7 @@ aside {
   left: 850px;
 }
 .PLUSS {
-  position: absolute;
-  top: 110px;
-  left: 860px;
+margin-left: 500px;
 }
 .MOIN {
   position: absolute;
@@ -1301,3 +1300,28 @@ select {
 a {
   text-decoration: none;
 }
+@media screen and (max-width: 1250px) {
+  header{
+
+
+    flex-direction: column;
+    height: 133px;
+  }
+
+  #main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.summary2 {
+  width: 500px;
+  height: 380px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  border: 3px solid #e2e8f0;
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-bottom: 20px;
+}
+
+  }
