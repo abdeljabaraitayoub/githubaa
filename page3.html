@@ -13,27 +13,25 @@
       href="https://fonts.googleapis.com/css?family=Familjen Grotesk"
       rel="stylesheet"
     />
-    <link
-      rel="icon"
-      type="image/x-icon"
-      href="https://icons.iconarchive.com/icons/danleech/simple/128/amazon-icon.png"
-      width="128"
-      height="128"
-    />
+    <meta name="Description" content="this website is Amazon" />
   </head>
   <body>
     <header>
       <div class="navbar">
-        <a href="index.html">
-          <img id="logoAmazon" src="./Img/logoAmazon.png" alt="" />
-        </a>
+        <a href="index.html"
+          ><img id="logoAmazon" src="./Img/logoAmazon.png" alt=""
+        /></a>
         <input type="text" id="input" placeholder="Recherche For Product..." />
+        <button id="button"><img src="./Img/Vector.svg" alt="" /></button>
       </div>
-      <nav>
+
+      <nav class="boxx">
         <ul class="navbar">
-          <li class="text1">Sing In | Create account</li>
-          <li><img src="./Img/logoMar.png" alt="morrocan flag" id="flag" /></li>
-          <li class="text">MAR</li>
+          <li class="text1" class="boxx">Sing In | Create account</li>
+          <li>
+            <img src="./Img/logoMar.png" alt="morrocan flag" id="flag" />
+          </li>
+          <li class="text" class="boxx">MAR</li>
           <li>
             <img src="./Img/Shopping Cart.png" alt="store logo" id="market" />
           </li>
@@ -218,7 +216,7 @@
             <span class="five1">00.0%</span>
           </div>
         </div>
-        <div style="align-items: center">
+        <div id="none" style="align-items: center">
           <div class="linne"></div>
         </div>
         <div class="comments">
@@ -402,4 +400,5 @@
       <p class="copy">copy &copy; Right 2023</p>
     </footer>
   </body>
+  <script src="script.js"></script>
 </html>

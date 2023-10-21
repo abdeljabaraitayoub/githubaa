@@ -35,3 +35,4 @@ https://abdeljabaraitayoub.github.io/htmlCss-2ndBrief/
 - [abdeljabar AITAYOUB](https://github.com/abdeljabaraitayoub) - Développeur principal
 
 N'hésitez pas à contribuer au projet en apportant des améliorations, en corrigeant des bugs ou en ajoutant des fonctionnalités.
+d

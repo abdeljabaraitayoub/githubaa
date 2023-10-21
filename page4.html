@@ -13,13 +13,7 @@
       href="https://fonts.googleapis.com/css?family=Familjen Grotesk"
       rel="stylesheet"
     />
-    <link
-      rel="icon"
-      type="image/x-icon"
-      href="https://icons.iconarchive.com/icons/danleech/simple/128/amazon-icon.png"
-      width="128"
-      height="128"
-    />
+    <meta name="Description" content="this website is Amazon" />
   </head>
   <body>
     <header>
@@ -28,12 +22,16 @@
           ><img id="logoAmazon" src="./Img/logoAmazon.png" alt=""
         /></a>
         <input type="text" id="input" placeholder="Recherche For Product..." />
+        <button id="button"><img src="./Img/Vector.svg" alt="" /></button>
       </div>
-      <nav>
+
+      <nav class="boxx">
         <ul class="navbar">
-          <li class="text1">Sing In | Create account</li>
-          <li><img src="./Img/logoMar.png" alt="morrocan flag" id="flag" /></li>
-          <li class="text">MAR</li>
+          <li class="text1" class="boxx">Sing In | Create account</li>
+          <li>
+            <img src="./Img/logoMar.png" alt="morrocan flag" id="flag" />
+          </li>
+          <li class="text" class="boxx">MAR</li>
           <li>
             <img src="./Img/Shopping Cart.png" alt="store logo" id="market" />
           </li>
@@ -57,9 +55,9 @@
           <div class="tax">+Shipping tasks</div>
           <div class="heart"><img src="./Img/HEART.svg" alt="" /></div>
           <div class="delett"><img src="./Img/DELETE.svg" alt="" /></div>
-          <div class="PLUSS"><img src="./Img/PLUS.svg" alt="" /></div>
+          <div class="PLUSS"><img src="./Img/PLUS.svg" /></div>
           <div class="MOIN"><img src="./Img/MOIN.svg" alt="" /></div>
-          <div class="ONE1">1</div>
+          <div class="ONE1" id="para1">1</div>
         </div>
         <div id="sum4">
           <img src="./Img/tick.svg" alt="" id="x" />
@@ -71,8 +69,10 @@
           <div class="heart"><img src="./Img/HEART.svg" alt="" /></div>
           <div class="delett"><img src="./Img/DELETE.svg" alt="" /></div>
           <div class="PLUSS"><img src="./Img/PLUS.svg" alt="" /></div>
-          <div class="MOIN"><img src="./Img/MOIN.svg" alt="" /></div>
-          <div class="ONE1">1</div>
+          <div class="MOIN">
+            <img src="./Img/MOIN.svg" alt="" />
+          </div>
+          <div class="ONE1" id="para1">1</div>
         </div>
         <div id="sum4">
           <img src="./Img/tick.svg" alt="" id="x" />
@@ -128,4 +128,5 @@
       <p class="copy">copy &copy; Right 2023</p>
     </footer>
   </body>
+  <script src="script.js"></script>
 </html>

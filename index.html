@@ -13,13 +13,7 @@
       href="https://fonts.googleapis.com/css?family=Familjen Grotesk"
       rel="stylesheet"
     />
-    <link
-      rel="icon"
-      type="image/x-icon"
-      href="https://icons.iconarchive.com/icons/danleech/simple/128/amazon-icon.png"
-      width="128"
-      height="128"
-    />
+    <meta name="Description" content="this website is Amazon" />
   </head>
   <body>
     <header>
@@ -27,428 +21,455 @@
         <a href="index.html"
           ><img id="logoAmazon" src="./Img/logoAmazon.png" alt=""
         /></a>
-        <a href="page2.html">
-          <input
-            type="text"
-            id="input"
-            placeholder="Recherche For Product..."
-          />
-        </a>
+        <a href="page2.html"
+          ><input type="text" id="input" placeholder="Recherche For Product..."
+        /></a>
+        <button id="button"><img src="./Img/Vector.svg" alt="" /></button>
       </div>
-      <nav>
+
+      <nav class="boxx">
         <ul class="navbar">
-          <li class="text1">Sing In | Create account</li>
-          <li><img src="./Img/logoMar.png" alt="morrocan flag" id="flag" /></li>
-          <li class="text">MAR</li>
+          <li class="text1" class="boxx">Sing In | Create account</li>
           <li>
+            <img src="./Img/logoMar.png" alt="morrocan flag" id="flag" />
+          </li>
+          <li class="text" class="boxx">MAR</li>
+          <li>
+            <button class="down"></button>
             <img src="./Img/Shopping Cart.png" alt="store logo" id="market" />
           </li>
           <li id="market5" style="margin: 2px">5</li>
         </ul>
       </nav>
     </header>
-    <main id="main">
-      <section>
-        <div class="box">
-          <img
-            src="./Img/Short Sleeve Shirt.svg"
-            alt="short Sleeve"
-            id="short"
-          />
-          <span class="text-acc">Accessoires</span>
+    <div class="grp">
+      <div class="barmarket">
+        <h1 class="product">Product</h1>
+        <div class="cardsss">
+          <img src="/Img/Image1.png" alt="" class="cercle11" />
+          <div>
+            <h3 class="name11">Keyboard</h3>
+            <h4 class="price11">1600$</h4>
+          </div>
+          <div class="star">
+            <img id="starr" src="./Img/Star.svg" alt="" />
+            <span id="starrr">5.0</span>
+          </div>
         </div>
-        <div class="box2">
-          <img
-            src="./Img/Short Sleeve Shirt.svg"
-            alt="short Sleeve"
-            id="short"
-          />
-          <span class="text-acc">Accessoires</span>
+        <div class="cardsss">
+          <img src="/Img/Image1.png" alt="" class="cercle11" />
+          <div>
+            <h3 class="name11">Keyboard</h3>
+            <h4 class="price11">1600$</h4>
+          </div>
+          <div class="star">
+            <img id="starr" src="./Img/Star.svg" alt="" />
+            <span id="starrr">5.0</span>
+          </div>
         </div>
-        <div class="box2">
-          <img
-            src="./Img/Short Sleeve Shirt.svg"
-            alt="short Sleeve"
-            id="short"
-          />
-          <span class="text-acc">Accessoires</span>
-        </div>
-        <div class="box2">
-          <img
-            src="./Img/Short Sleeve Shirt.svg"
-            alt="short Sleeve"
-            id="short"
-          />
-          <span class="text-acc">Accessoires</span>
-        </div>
-        <div class="box2">
-          <img
-            src="./Img/Short Sleeve Shirt.svg"
-            alt="short Sleeve"
-            id="short"
-          />
-          <span class="text-acc">Accessoires</span>
-        </div>
-        <div class="box2">
-          <img
-            src="./Img/Short Sleeve Shirt.svg"
-            alt="short Sleeve"
-            id="short"
-          />
-          <span class="text-acc">Accessoires</span>
-        </div>
-        <div class="box2">
-          <img
-            src="./Img/Short Sleeve Shirt.svg"
-            alt="short Sleeve"
-            id="short"
-          />
-          <span class="text-acc">Accessoires</span>
-        </div>
-        <div class="box2">
-          <img
-            src="./Img/Short Sleeve Shirt.svg"
-            alt="short Sleeve"
-            id="short"
-          />
-          <span class="text-acc">Accessoires</span>
-        </div>
-        <div class="box2">
-          <img
-            src="./Img/Short Sleeve Shirt.svg"
-            alt="short Sleeve"
-            id="short"
-          />
-          <span class="text-acc">Accessoires</span>
-        </div>
-        <div class="box2">
-          <img
-            src="./Img/Short Sleeve Shirt.svg"
-            alt="short Sleeve"
-            id="short"
-          />
-          <span class="text-acc">Accessoires</span>
-        </div>
-        <div class="box3">
-          <img
-            src="./Img/Short Sleeve Shirt.svg"
-            alt="short Sleeve"
-            id="short"
-          />
-          <span class="text-acc">Accessoires</span>
-        </div>
-      </section>
-      <div>
-        <img id="img-vest" src="./Img/Image1.png" alt="a good veste" />
       </div>
-    </main>
-    <section>
-      <h1 class="best">#Best remise</h1>
-      <section class="cards">
-        <section class="card">
-          <div>
-            <img src="./Img/product.svg" alt="i mac 2022" class="product" />
+      <main id="main">
+        <button onclick="showTable()" id="BTNN1">Filtre</button>
+        <section id="margin" id="section1M">
+          <div class="box">
+            <img
+              src="./Img/Short Sleeve Shirt.svg"
+              alt="short Sleeve"
+              id="short"
+            />
+            <span class="text-acc">Accessoires</span>
           </div>
-          <section>
-            <span class="price"> $1200 </span>
-            <span class="discount"
-              >$1450
-              <sub id="line"></sub>
-            </span>
-            <div id="hello">
-              Hello world, hello aziz, hello me <br />Hello world, hello aziz,
-              hello me, hello
+          <div class="box2">
+            <img
+              src="./Img/Short Sleeve Shirt.svg"
+              alt="short Sleeve"
+              id="short"
+            />
+            <span class="text-acc">Accessoires</span>
+          </div>
+          <div class="box2 hide">
+            <img
+              src="./Img/Short Sleeve Shirt.svg"
+              alt="short Sleeve"
+              id="short"
+            />
+            <span class="text-acc">Accessoires</span>
+          </div>
+          <div class="box2 hide">
+            <img
+              src="./Img/Short Sleeve Shirt.svg"
+              alt="short Sleeve"
+              id="short"
+            />
+            <span class="text-acc">Accessoires</span>
+          </div>
+          <div class="box2 hide">
+            <img
+              src="./Img/Short Sleeve Shirt.svg"
+              alt="short Sleeve"
+              id="short"
+            />
+            <span class="text-acc">Accessoires</span>
+          </div>
+          <div class="box2 hide">
+            <img
+              src="./Img/Short Sleeve Shirt.svg"
+              alt="short Sleeve"
+              id="short"
+            />
+            <span class="text-acc">Accessoires</span>
+          </div>
+          <div class="box2 hide">
+            <img
+              src="./Img/Short Sleeve Shirt.svg"
+              alt="short Sleeve"
+              id="short"
+            />
+            <span class="text-acc">Accessoires</span>
+          </div>
+          <div class="box2 hide">
+            <img
+              src="./Img/Short Sleeve Shirt.svg"
+              alt="short Sleeve"
+              id="short"
+            />
+            <span class="text-acc">Accessoires</span>
+          </div>
+          <div class="box2 hide">
+            <img
+              src="./Img/Short Sleeve Shirt.svg"
+              alt="short Sleeve"
+              id="short"
+            />
+            <span class="text-acc">Accessoires</span>
+          </div>
+          <div class="box2 hide">
+            <img
+              src="./Img/Short Sleeve Shirt.svg"
+              alt="short Sleeve"
+              id="short"
+            />
+            <span class="text-acc">Accessoires</span>
+          </div>
+          <div class="box3 hide">
+            <img
+              src="./Img/Short Sleeve Shirt.svg"
+              alt="short Sleeve"
+              id="short"
+            />
+            <span class="text-acc">Accessoires</span>
+          </div>
+        </section>
+        <img id="img-vest" src="./Img/Image1.png" alt="a good veste" />
+      </main>
+      <section>
+        <h1 class="best">#Best remise</h1>
+        <section class="cards">
+          <section class="card">
+            <div>
+              <img src="./Img/product.svg" alt="i mac 2022" class="product" />
             </div>
-            <section id="allo">
-              <div class="star">
-                <img id="starr" src="./Img/Star.svg" alt="" />
-                <span id="starrr">5.0</span>
+            <section>
+              <span class="price"> $1200 </span>
+              <span class="discount"
+                >$1450
+                <sub id="line"></sub>
+              </span>
+              <div id="hello">
+                Hello world, hello aziz, hello me <br />Hello world, hello aziz,
+                hello me, hello
               </div>
-              <div id="sold">
-                <span>| sold 120</span>
-              </div>
-              <div id="panier">
-                <img id="Shopping" src="./Img/Shopping Mall.svg" alt="" />
-              </div>
+              <section id="allo">
+                <div class="star">
+                  <img id="starr" src="./Img/Star.svg" alt="" />
+                  <span id="starrr">5.0</span>
+                </div>
+                <div id="sold">
+                  <span>| sold 120</span>
+                </div>
+                <div id="panier">
+                  <img id="Shopping" src="./Img/Shopping Mall.svg" alt="" />
+                </div>
+              </section>
             </section>
           </section>
-        </section>
-        <section class="card">
-          <div>
-            <img src="./Img/product.svg" alt="i mac 2022" class="product" />
-          </div>
-          <section>
-            <span class="price"> $1200 </span>
-            <span class="discount"
-              >$1450
-              <sub id="line"></sub>
-            </span>
-            <div id="hello">
-              Hello world, hello aziz, hello me <br />Hello world, hello aziz,
-              hello me, hello
+          <section class="card">
+            <div>
+              <img src="./Img/product.svg" alt="i mac 2022" class="product" />
             </div>
-            <section id="allo">
-              <div class="star">
-                <img id="starr" src="./Img/Star.svg" alt="" />
-                <span id="starrr">5.0</span>
+            <section>
+              <span class="price"> $1200 </span>
+              <span class="discount"
+                >$1450
+                <sub id="line"></sub>
+              </span>
+              <div id="hello">
+                Hello world, hello aziz, hello me <br />Hello world, hello aziz,
+                hello me, hello
               </div>
-              <div id="sold">
-                <span>| sold 120</span>
-              </div>
-              <div id="panier">
-                <img id="Shopping" src="./Img/Shopping Mall.svg" alt="" />
-              </div>
+              <section id="allo">
+                <div class="star">
+                  <img id="starr" src="./Img/Star.svg" alt="" />
+                  <span id="starrr">5.0</span>
+                </div>
+                <div id="sold">
+                  <span>| sold 120</span>
+                </div>
+                <div id="panier">
+                  <img id="Shopping" src="./Img/Shopping Mall.svg" alt="" />
+                </div>
+              </section>
             </section>
           </section>
-        </section>
-        <section class="card">
-          <div>
-            <img src="./Img/product.svg" alt="i mac 2022" class="product" />
-          </div>
-          <section>
-            <span class="price"> $1200 </span>
-            <span class="discount"
-              >$1450
-              <sub id="line"></sub>
-            </span>
-            <div id="hello">
-              Hello world, hello aziz, hello me <br />Hello world, hello aziz,
-              hello me, hello
+          <section class="card">
+            <div>
+              <img src="./Img/product.svg" alt="i mac 2022" class="product" />
             </div>
-            <section id="allo">
-              <div class="star">
-                <img id="starr" src="./Img/Star.svg" alt="" />
-                <span id="starrr">5.0</span>
+            <section>
+              <span class="price"> $1200 </span>
+              <span class="discount"
+                >$1450
+                <sub id="line"></sub>
+              </span>
+              <div id="hello">
+                Hello world, hello aziz, hello me <br />Hello world, hello aziz,
+                hello me, hello
               </div>
-              <div id="sold">
-                <span>| sold 120</span>
-              </div>
-              <div id="panier">
-                <img id="Shopping" src="./Img/Shopping Mall.svg" alt="" />
-              </div>
+              <section id="allo">
+                <div class="star">
+                  <img id="starr" src="./Img/Star.svg" alt="" />
+                  <span id="starrr">5.0</span>
+                </div>
+                <div id="sold">
+                  <span>| sold 120</span>
+                </div>
+                <div id="panier">
+                  <img id="Shopping" src="./Img/Shopping Mall.svg" alt="" />
+                </div>
+              </section>
             </section>
           </section>
         </section>
       </section>
-    </section>
-    <h1 class="best">#Best Products</h1>
-    <a href="page3.html">
-      <section id="bestpp">
-        <div class="bestp">
-          <div>
-            <img src="./Img/Rectangle 6.png" alt="i mac 2022" class="pic" />
+      <h1 class="best">#Best Products</h1>
+      <a href="page3.html">
+        <section id="bestpp">
+          <div class="bestp">
+            <div>
+              <img src="./Img/Rectangle 6.png" alt="i mac 2022" class="pic" />
+            </div>
+            <span class="price"> $1200 </span>
+            <span class="discount"
+              >$1450
+              <sub id="line"></sub>
+            </span>
+            <div id="hello">
+              Hello world, hello aziz, hello me <br />Hello world, hello aziz,
+              hello me, hello
+            </div>
+            <section id="allo">
+              <div class="star">
+                <img id="starr" src="./Img/Star.svg" alt="" />
+                <span id="starrr">5.0</span>
+              </div>
+              <div id="sold">
+                <span>| sold 120</span>
+              </div>
+              <div id="panier1">
+                <img id="Shopping" src="./Img/Shopping Mall.svg" alt="" />
+              </div>
+            </section>
           </div>
-          <span class="price"> $1200 </span>
-          <span class="discount"
-            >$1450
-            <sub id="line"></sub>
-          </span>
-          <div id="hello">
-            Hello world, hello aziz, hello me <br />Hello world, hello aziz,
-            hello me, hello
+          <div class="bestp">
+            <div>
+              <img src="./Img/Rectangle 6.png" alt="i mac 2022" class="pic" />
+            </div>
+            <span class="price"> $1200 </span>
+            <span class="discount"
+              >$1450
+              <sub id="line"></sub>
+            </span>
+            <div id="hello">
+              Hello world, hello aziz, hello me <br />Hello world, hello aziz,
+              hello me, hello
+            </div>
+            <section id="allo">
+              <div class="star">
+                <img id="starr" src="./Img/Star.svg" alt="" />
+                <span id="starrr">5.0</span>
+              </div>
+              <div id="sold">
+                <span>| sold 120</span>
+              </div>
+              <div id="panier1">
+                <img id="Shopping" src="./Img/Shopping Mall.svg" alt="" />
+              </div>
+            </section>
           </div>
-          <section id="allo">
-            <div class="star">
-              <img id="starr" src="./Img/Star.svg" alt="" />
-              <span id="starrr">5.0</span>
+          <div class="bestp">
+            <div>
+              <img src="./Img/Rectangle 6.png" alt="i mac 2022" class="pic" />
             </div>
-            <div id="sold">
-              <span>| sold 120</span>
+            <span class="price"> $1200 </span>
+            <span class="discount"
+              >$1450
+              <sub id="line"></sub>
+            </span>
+            <div id="hello">
+              Hello world, hello aziz, hello me <br />Hello world, hello aziz,
+              hello me, hello
             </div>
-            <div id="panier1">
-              <img id="Shopping" src="./Img/Shopping Mall.svg" alt="" />
-            </div>
-          </section>
-        </div>
-        <div class="bestp">
-          <div>
-            <img src="./Img/Rectangle 6.png" alt="i mac 2022" class="pic" />
+            <section id="allo">
+              <div class="star">
+                <img id="starr" src="./Img/Star.svg" alt="" />
+                <span id="starrr">5.0</span>
+              </div>
+              <div id="sold">
+                <span>| sold 120</span>
+              </div>
+              <div id="panier1">
+                <img id="Shopping" src="./Img/Shopping Mall.svg" alt="" />
+              </div>
+            </section>
           </div>
-          <span class="price"> $1200 </span>
-          <span class="discount"
-            >$1450
-            <sub id="line"></sub>
-          </span>
-          <div id="hello">
-            Hello world, hello aziz, hello me <br />Hello world, hello aziz,
-            hello me, hello
+          <div class="bestp">
+            <div>
+              <img src="./Img/Rectangle 6.png" alt="i mac 2022" class="pic" />
+            </div>
+            <span class="price"> $1200 </span>
+            <span class="discount"
+              >$1450
+              <sub id="line"></sub>
+            </span>
+            <div id="hello">
+              Hello world, hello aziz, hello me <br />Hello world, hello aziz,
+              hello me, hello
+            </div>
+            <section id="allo">
+              <div class="star">
+                <img id="starr" src="./Img/Star.svg" alt="" />
+                <span id="starrr">5.0</span>
+              </div>
+              <div id="sold">
+                <span>| sold 120</span>
+              </div>
+              <div id="panier1">
+                <img id="Shopping" src="./Img/Shopping Mall.svg" alt="" />
+              </div>
+            </section>
           </div>
-          <section id="allo">
-            <div class="star">
-              <img id="starr" src="./Img/Star.svg" alt="" />
-              <span id="starrr">5.0</span>
+          <div class="bestp">
+            <div>
+              <img src="./Img/Rectangle 6.png" alt="i mac 2022" class="pic" />
             </div>
-            <div id="sold">
-              <span>| sold 120</span>
+            <span class="price"> $1200 </span>
+            <span class="discount"
+              >$1450
+              <sub id="line"></sub>
+            </span>
+            <div id="hello">
+              Hello world, hello aziz, hello me <br />Hello world, hello aziz,
+              hello me, hello
             </div>
-            <div id="panier1">
-              <img id="Shopping" src="./Img/Shopping Mall.svg" alt="" />
-            </div>
-          </section>
-        </div>
-        <div class="bestp">
-          <div>
-            <img src="./Img/Rectangle 6.png" alt="i mac 2022" class="pic" />
+            <section id="allo">
+              <div class="star">
+                <img id="starr" src="./Img/Star.svg" alt="" />
+                <span id="starrr">5.0</span>
+              </div>
+              <div id="sold">
+                <span>| sold 120</span>
+              </div>
+              <div id="panier1">
+                <img id="Shopping" src="./Img/Shopping Mall.svg" alt="" />
+              </div>
+            </section>
           </div>
-          <span class="price"> $1200 </span>
-          <span class="discount"
-            >$1450
-            <sub id="line"></sub>
-          </span>
-          <div id="hello">
-            Hello world, hello aziz, hello me <br />Hello world, hello aziz,
-            hello me, hello
+          <div class="bestp">
+            <div>
+              <img src="./Img/Rectangle 6.png" alt="i mac 2022" class="pic" />
+            </div>
+            <span class="price"> $1200 </span>
+            <span class="discount"
+              >$1450
+              <sub id="line"></sub>
+            </span>
+            <div id="hello">
+              Hello world, hello aziz, hello me <br />Hello world, hello aziz,
+              hello me, hello
+            </div>
+            <section id="allo">
+              <div class="star">
+                <img id="starr" src="./Img/Star.svg" alt="" />
+                <span id="starrr">5.0</span>
+              </div>
+              <div id="sold">
+                <span>| sold 120</span>
+              </div>
+              <div id="panier1">
+                <img id="Shopping" src="./Img/Shopping Mall.svg" alt="" />
+              </div>
+            </section>
           </div>
-          <section id="allo">
-            <div class="star">
-              <img id="starr" src="./Img/Star.svg" alt="" />
-              <span id="starrr">5.0</span>
+          <div class="bestp">
+            <div>
+              <img src="./Img/Rectangle 6.png" alt="i mac 2022" class="pic" />
             </div>
-            <div id="sold">
-              <span>| sold 120</span>
+            <span class="price"> $1200 </span>
+            <span class="discount"
+              >$1450
+              <sub id="line"></sub>
+            </span>
+            <div id="hello">
+              Hello world, hello aziz, hello me <br />Hello world, hello aziz,
+              hello me, hello
             </div>
-            <div id="panier1">
-              <img id="Shopping" src="./Img/Shopping Mall.svg" alt="" />
-            </div>
-          </section>
-        </div>
-        <div class="bestp">
-          <div>
-            <img src="./Img/Rectangle 6.png" alt="i mac 2022" class="pic" />
+            <section id="allo">
+              <div class="star">
+                <img id="starr" src="./Img/Star.svg" alt="" />
+                <span id="starrr">5.0</span>
+              </div>
+              <div id="sold">
+                <span>| sold 120</span>
+              </div>
+              <div id="panier1">
+                <img id="Shopping" src="./Img/Shopping Mall.svg" alt="" />
+              </div>
+            </section>
           </div>
-          <span class="price"> $1200 </span>
-          <span class="discount"
-            >$1450
-            <sub id="line"></sub>
-          </span>
-          <div id="hello">
-            Hello world, hello aziz, hello me <br />Hello world, hello aziz,
-            hello me, hello
+          <div class="bestp">
+            <div>
+              <img src="./Img/Rectangle 6.png" alt="i mac 2022" class="pic" />
+            </div>
+            <span class="price"> $1200 </span>
+            <span class="discount"
+              >$1450
+              <sub id="line"></sub>
+            </span>
+            <div id="hello">
+              Hello world, hello aziz, hello me <br />Hello world, hello aziz,
+              hello me, hello
+            </div>
+            <section id="allo">
+              <div class="star">
+                <img id="starr" src="./Img/Star.svg" alt="" />
+                <span id="starrr">5.0</span>
+              </div>
+              <div id="sold">
+                <span>| sold 120</span>
+              </div>
+              <div id="panier1">
+                <img id="Shopping" src="./Img/Shopping Mall.svg" alt="" />
+              </div>
+            </section>
           </div>
-          <section id="allo">
-            <div class="star">
-              <img id="starr" src="./Img/Star.svg" alt="" />
-              <span id="starrr">5.0</span>
-            </div>
-            <div id="sold">
-              <span>| sold 120</span>
-            </div>
-            <div id="panier1">
-              <img id="Shopping" src="./Img/Shopping Mall.svg" alt="" />
-            </div>
-          </section>
-        </div>
-        <div class="bestp">
-          <div>
-            <img src="./Img/Rectangle 6.png" alt="i mac 2022" class="pic" />
-          </div>
-          <span class="price"> $1200 </span>
-          <span class="discount"
-            >$1450
-            <sub id="line"></sub>
-          </span>
-          <div id="hello">
-            Hello world, hello aziz, hello me <br />Hello world, hello aziz,
-            hello me, hello
-          </div>
-          <section id="allo">
-            <div class="star">
-              <img id="starr" src="./Img/Star.svg" alt="" />
-              <span id="starrr">5.0</span>
-            </div>
-            <div id="sold">
-              <span>| sold 120</span>
-            </div>
-            <div id="panier1">
-              <img id="Shopping" src="./Img/Shopping Mall.svg" alt="" />
-            </div>
-          </section>
-        </div>
-        <div class="bestp">
-          <div>
-            <img src="./Img/Rectangle 6.png" alt="i mac 2022" class="pic" />
-          </div>
-          <span class="price"> $1200 </span>
-          <span class="discount"
-            >$1450
-            <sub id="line"></sub>
-          </span>
-          <div id="hello">
-            Hello world, hello aziz, hello me <br />Hello world, hello aziz,
-            hello me, hello
-          </div>
-          <section id="allo">
-            <div class="star">
-              <img id="starr" src="./Img/Star.svg" alt="" />
-              <span id="starrr">5.0</span>
-            </div>
-            <div id="sold">
-              <span>| sold 120</span>
-            </div>
-            <div id="panier1">
-              <img id="Shopping" src="./Img/Shopping Mall.svg" alt="" />
-            </div>
-          </section>
-        </div>
-        <div class="bestp">
-          <div>
-            <img src="./Img/Rectangle 6.png" alt="i mac 2022" class="pic" />
-          </div>
-          <span class="price"> $1200 </span>
-          <span class="discount"
-            >$1450
-            <sub id="line"></sub>
-          </span>
-          <div id="hello">
-            Hello world, hello aziz, hello me <br />Hello world, hello aziz,
-            hello me, hello
-          </div>
-          <section id="allo">
-            <div class="star">
-              <img id="starr" src="./Img/Star.svg" alt="" />
-              <span id="starrr">5.0</span>
-            </div>
-            <div id="sold">
-              <span>| sold 120</span>
-            </div>
-            <div id="panier1">
-              <img id="Shopping" src="./Img/Shopping Mall.svg" alt="" />
-            </div>
-          </section>
-        </div>
-        <div class="bestp">
-          <div>
-            <img src="./Img/Rectangle 6.png" alt="i mac 2022" class="pic" />
-          </div>
-          <span class="price"> $1200 </span>
-          <span class="discount"
-            >$1450
-            <sub id="line"></sub>
-          </span>
-          <div id="hello">
-            Hello world, hello aziz, hello me <br />Hello world, hello aziz,
-            hello me, hello
-          </div>
-          <section id="allo">
-            <div class="star">
-              <img id="starr" src="./Img/Star.svg" alt="" />
-              <span id="starrr">5.0</span>
-            </div>
-            <div id="sold">
-              <span>| sold 120</span>
-            </div>
-            <div id="panier1">
-              <img id="Shopping" src="./Img/Shopping Mall.svg" alt="" />
-            </div>
-          </section>
-        </div>
-      </section>
-    </a>
-    <div class="dots">
-      <span class="dot"></span>
-      <span class="dot"></span>
-      <span class="dot"></span>
-      <span class="dot"></span>
+        </section>
+      </a>
+      <div class="dots">
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+      </div>
     </div>
     <footer>
       <div>
@@ -461,4 +482,5 @@
       <p class="copy">copy &copy; Right 2023</p>
     </footer>
   </body>
+  <script src="script.js"></script>
 </html>
