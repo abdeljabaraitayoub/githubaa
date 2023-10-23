@@ -47,7 +47,7 @@ function AddNumber1() {
   var element = document.querySelector(".ONE1");
     element.innerHTML = count1;
     // Update the content of elements with class ".prrr"
-    var element = document.querySelector(".prrr");
+     var element = document.querySelector(".prrr");
     element.innerHTML = "$ " + total;
 
 }
