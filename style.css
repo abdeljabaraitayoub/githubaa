@@ -1,4 +1,4 @@
-  * {
+* {
   margin: 0;
   /* border: 1px red solid; */
 }
@@ -882,6 +882,26 @@ aside {
   left: 88%;
 }
 .ONE1 {
+  position: absolute;
+  top: 68%;
+  left: 92%;
+  color: #64748b;
+
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 600;
+}
+.ONE2 {
+  position: absolute;
+  top: 68%;
+  left: 92%;
+  color: #64748b;
+
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 600;
+}
+.ONE3 {
   position: absolute;
   top: 68%;
   left: 92%;
