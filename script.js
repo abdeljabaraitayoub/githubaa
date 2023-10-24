@@ -54,8 +54,13 @@ function AddNumber1() {
 
 }
 function removeNumber1() {
-  if(count1>0){opi,
-  }
+  if(count1>0){
+    count1=count1-1;
+    console.log("I'm clicked");
+    console.log(count1);
+    total=total-1900;
+    console.log(total);
+    }
   // Update the content of elements with class "ONE1"
   var element = document.querySelector(".ONE1");
     element.innerHTML = count1;
