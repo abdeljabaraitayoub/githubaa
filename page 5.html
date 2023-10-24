@@ -21,7 +21,9 @@
         <a href="index.html"
           ><img id="logoAmazon" src="./Img/logoAmazon.png" alt=""
         /></a>
-        <input type="text" id="input" placeholder="Recherche For Product..." />
+        <a href="page2.html"
+          ><input type="text" id="input" placeholder="Recherche For Product..."
+        /></a>
         <button id="button"><img src="./Img/Vector.svg" alt="" /></button>
       </div>
 
@@ -33,9 +35,15 @@
           </li>
           <li class="text" class="boxx">MAR</li>
           <li>
-            <img src="./Img/Shopping Cart.png" alt="store logo" id="market" />
+            <button class="down"></button>
+            <img
+              src="./Img/Shopping Cart.png"
+              alt="store logo"
+              id="market"
+              onclick="cart1()"
+            />
           </li>
-          <li id="market5" style="margin: 2px">5</li>
+          <li id="market5" style="margin: 2px">0</li>
         </ul>
       </nav>
     </header>
@@ -67,12 +75,13 @@
       <div>
         <ul class="footer1">
           <li class="about">About</li>
-          <li class="about">Support</li>
+          <li class="about"><a href="/page 5.html">Support</a></li>
           <li class="about">FQA</li>
         </ul>
       </div>
       <p class="copy">copy &copy; Right 2023</p>
     </footer>
+
     <script src="script.js"></script>
   </body>
 </html>

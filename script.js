@@ -10,7 +10,6 @@ button.addEventListener("click", buttonPressed);
 
 
 var maDiv = document.getElementById("margin");
-var BTN = document.getElementById("BTNN1");
 function showTable() {
 if(maDiv.style.display === "block"){
     maDiv.style.display = "none";
@@ -141,6 +140,15 @@ function addnumber4(){
   market.innerHTML=count4;
 
 
+}
+var cart = document.querySelector(".barmarket");
+
+function cart1() {
+  if (cart.style.display == "none") {
+    cart.style.display = "block";
+  } else {
+    cart.style.display = "none";
+  }
 }
 
 
