@@ -152,3 +152,34 @@ function cart1() {
 }
 
 
+function validateForm() {
+  var name = document.getElementById("name").value;
+  var email = document.getElementById("mail").value;
+  var message = document.getElementById("text5").value;
+
+  if (name === "") {
+    alert("Please enter your name.");
+    return false;
+  }
+
+  if (email === "") {
+    alert("Please enter your email address.");
+    return false;
+  } else if (!isValidEmail(email)) {
+    alert("Please enter a valid email address.");
+    return false;
+  }
+
+  if (message === "") {
+    alert("Please enter your message.");
+    return false;
+  }
+
+  return true;
+}
+
+function isValidEmail(email) {
+  // Regular expression for basic email validation
+  var emailPattern = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
+  return emailPattern.test(email);
+}

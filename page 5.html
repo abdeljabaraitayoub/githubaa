@@ -52,18 +52,11 @@
       <h3 class="par5">
         Great vision without great people is irrelevant. Let's work together.
       </h3>
-      <form>
-        <input type="text" id="name" placeholder="Entrer votre Nom" required />
-        <input
-          type="email"
-          id="mail"
-          placeholder="Entrer une valid Email"
-          required
-        />
-        <!-- <input type="text" id="text5" placeholder="Entrer Votre message " /> -->
+      <form onsubmit="return validateForm()">
+        <input id="name" placeholder="Enter your Name" />
+        <input id="mail" placeholder="Enter a valid Email" />
         <textarea
-          placeholder="Entrer votre Message"
-          name=" Entrer Votre message"
+          placeholder="Enter your Message"
           id="text5"
           cols="30"
           rows="10"
