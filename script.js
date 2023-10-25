@@ -150,7 +150,7 @@ function cart1() {
     cart.style.display = "none";
   }
 }
-
+// Form
 
 function validateForm() {
   var name = document.getElementById("name").value;
